@@ -1,5 +1,4 @@
 # Website
-# file:///C:/Users/Student/Desktop/myglobe/MYGLOBE/pages/about.html
 # Solcise Power
 
 ## Student Information:
