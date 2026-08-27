@@ -1,1 +1,6 @@
-I am creating a website for my business Solstice Solutions on providing affordable, high-quality solar energy for homes and businesses
+website
+Solcise Power
+Student Information:
+NAME: Mnqweno Mankayi
+STUDENT NUMBER: ST10480215
+MODULE NAME: Web Development
