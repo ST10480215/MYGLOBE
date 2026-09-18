@@ -3,87 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOLSICE_SUN | CONTACT US</title>
+    <title>Solstice Solar Solutions | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-     <header>
-        <!--Logo goes here-->
-        <!--Navigation links-->
-        <nav>
-            <a href="./index.html">HOME</a>
-            <a href="./about.html">ABOUT US</a>
-            <a href="./contact.html">CONTACT US</a>
-            <a href="./enquiry.html">ENQUIRY</a>
-            <a href="#">SERVICES</a>
-        </nav>
-    </header>
-    <!--Main Section-->
-    <main>
-        <section>
-            <h1 style="text-align: center;">Contact Us</h1>
-            <p style="font-size: medium; font-family: 'Times New Roman', Times, serif"></p>
-                Web development is the process of building, creating, and maintaining websites and web applications that run over the internet.
-                It bridges the gap between a visual design mockup and a functional, interactive platform.
-                In 2026, web development continues to be a highly lucrative,
-                in_demand carrer path that is typically split into three primary specialisations:
-                front-end, back-end, and full_stack development.
-            </p><br/>
-            <hr/>
-        </section>
-        <!--Contact details-->
-        <section>
-            <h1 style="text-align: center;">Get in Touch</h1>
-            <li>Email: info@solicesun.com</li>
-            <li>Phone: (08)-032-1894</li>
-            <li>Hours: Monday to Friday 09h00 to 15h00</li>
-            <br/><br/>
-        </section>
-        <!--Location Details-->
-        <section>
-            <h1 style="text-align: center;">Our Office</h1>
-            <ul>
-                <li>Address: 123 Tech Lane, Suite 400, Austin, Tx 78701</li>
-                <li>Map: View on Google Map</li>
-            </ul>
-            <!--Google Map-->
-            <iframe style="display: block; margin: 0 auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.607875483048!2d25.576418327463273!3d-33.951212216486304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ad32acf52d90f%3A0xf97a6f5c47bc1138!2sRosebank%20College%20Nelson%20Mandela%20Bay!5e0!3m2!1sen!2sza!4v1786087829760!5m2!1sen!2sza" 
-                width="600" 
-                height="450" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="strict-origin-when-cross-origin"
-                ></iframe>
-        </section>
-        <section>
-            <h1 style="text-align: center;">Inquiry Form</h1>
-            <!--Create a form-->
-            <form action="#" method="POST" >
-                <label for= "name" name="name">Your Name:</label>
-                <input type="text" id="name" placeholder="Tell we who you are" required>
-                <br/><br/>
-                <label for="email" name="email">Email Address:</label><br/>
-                <input type="email" name="email" placeholder="Where we can reply to you" required>
-                <br/><br/>
-                <label for="proj_type" name="proj_type"> Project type:</label><br/> :
-                <select id="proj_type" name="proj_type" required>
-                    <option value=""---Select--- ></option>
-                    <option value="" Web Develpoment ></option>
-                    <option value="" e-Cmmerce ></option>
-                    <option value="" Redesign ></option>
-                </select>
-                <br/><br/>
-                <label for="budget" name="budget"> Estimated Budget:</label></br>
-                <input type="number" name="budget" min="8" placeholder="Helps us suggest the right solution" required>
-                <br/><br/>
-                <label for="message" name="message"> Message:<label><br/>
-                <textarea name="message" cols="40" placeholder="tell us abou your goals and timeline" required>
 
-                </textarea>
-                <br/><br/>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-    </main>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Solstice<span>Solar</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Contact <span>Us</span></h1>
+            <p>We'd love to hear from you. Reach out by phone, email, WhatsApp, or visit our showroom in Gqeberha.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get in <span>Touch</span></h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4> Phone</h4>
+                    <p><a href="tel:+27820321894">+27 82 032 1894</a></p>
+                    <p>Mon-Fri: 09:00 - 17:00</p>
+                </div>
+                <div class="card">
+                    <h4> Email</h4>
+                    <p><a href="mailto:info@solsticesolar.co.za">info@solsticesolar.co.za</a></p>
+                    <p>We reply within 24 hours</p>
+                </div>
+                <div class="card">
+                    <h4> WhatsApp</h4>
+                    <p><a href="https://wa.me/27820321894">+27 82 032 1894</a></p>
+                    <p>Quick and convenient</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-grey">
+        <div class="container">
+            <div class="section-title">
+                <h2>Visit Our <span>Showroom</span></h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4> Address</h4>
+                    <p><strong>Solstice Solar Solutions</strong></p>
+                    <p>Newton Park<br>Gqeberha (Port Elizabeth)<br>Eastern Cape, South Africa</p>
+                </div>
+                <div class="card">
+                    <h4> Opening Hours</h4>
+                    <p><strong>Monday - Friday:</strong> 09:00 - 17:00</p>
+                    <p><strong>Saturday:</strong> By appointment</p>
+                    <p><strong>Sunday:</strong> Closed</p>
+                </div>
+            </div>
+
+            <div style="margin-top:30px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.607875483048!2d25.576418327463273!3d-33.951212216486304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ad32acf52d90f%3A0xf97a6f5c47bc1138!2sRosebank%20College%20Nelson%20Mandela%20Bay!5e0!3m2!1sen!2sza!4v1786087829760!5m2!1sen!2sza" width="100%" height="400" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready for a <span>Free Quote?</span></h2>
+            <p>Fill in our quick enquiry form and we'll get back to you within 24 hours.</p>
+            <a href="enquiry.html" class="btn btn-yellow">Request a Quote</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Solstice Solar</h4>
+                    <p>Affordable, high-quality solar energy solutions across the Eastern and Western Cape since 2019.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Get Started</h4>
+                    <ul>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li> <a href="tel:+27820321894">+27 82 032 1894</a></li>
+                        <li> <a href="mailto:info@solsticesolar.co.za">info@solsticesolar.co.za</a></li>
+                        <li> Newton Park, Gqeberha</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Solstice Solar Solutions. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

@@ -3,153 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solstice Solar Solutions | ENQUIRY</title>
+    <title>Solstice Solar Solutions | Enquiry</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <!--Logo goes here-->
-        <!--Navigation links-->
-        <nav>
-            <a href="./index.html">HOME</a>
-            <a href="./about.html">ABOUT US</a>
-            <a href="./contact.html">CONTACT US</a>
-            <a href="./enquiry.html">ENQUIRY</a>
-            <a href="#">SERVICES</a>
-        </nav>
+        <div class="container">
+            <a href="index.html" class="logo">Solstice<span>Solar</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html" class="active">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <!--Main section-->
-    <main>
-        <!--Enquiry Header-->
-        <section>
-            <h1 style="color: rgb(0, 0, 0); text-align:center;">REQUEST A QUOTE</h1>
-            <p style="font-size: medium; font-family: 'Times New Roman', Times, serif; text-align: center;">
-                Fill in the form below and one of our solar experts will get back to you within 24 hours.
-            </p>
-            <br/>
-            <hr/>
-        </section>
 
-        <!--Enquiry Form Section-->
-        <section>
-            <h2 style="text-align:center; color: #000000;">Get Your Free Solar Quote</h2>
-            <br/>
+    <section class="hero">
+        <div class="container">
+            <h1>Request a <span>Free Quote</span></h1>
+            <p>Fill in the form below and one of our solar experts will get back to you within 24 hours.</p>
+        </div>
+    </section>
 
-            <form action="#" method="POST" style="max-width: 600px; margin: 0 auto; font-family: 'Times New Roman', Times, serif;">
-                <!--Full Name-->
-                <label for="fullname" style="font-weight: bold;">Full Name:</label><br/>
-                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                <br/>
+    <section class="section">
+        <div class="container">
+            <form action="#" method="POST">
 
-                <!--Email Address-->
-                <label for="email" style="font-weight: bold;">Email Address:</label><br/>
-                <input type="email" id="email" name="email" placeholder="Enter your email address" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                <br/>
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
 
-                <!--Phone Number-->
-                <label for="phone" style="font-weight: bold;">Phone Number:</label><br/>
-                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                <br/>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
 
-                <!--Location/Province-->
-                <label for="province" style="font-weight: bold;">Which province are you in?</label><br/>
-                <select id="province" name="province" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                    <option value="">-- Please select --</option>
-                    <option value="eastern-cape">Eastern Cape</option>
-                    <option value="western-cape">Western Cape</option>
-                    <option value="other">Other</option>
-                </select>
-                <br/>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
 
-                <!--Property Type-->
-                <label for="property" style="font-weight: bold;">Property Type:</label><br/>
-                <select id="property" name="property" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                    <option value="">-- Please select --</option>
-                    <option value="home">Home / House</option>
-                    <option value="estate">Estate / Body Corporate</option>
-                    <option value="business">Business / Office</option>
-                    <option value="farm">Farm / Agricultural</option>
-                    <option value="other">Other</option>
-                </select>
-                <br/>
+                <div class="form-group">
+                    <label for="province">Which province are you in?</label>
+                    <select id="province" name="province" required>
+                        <option value="">-- Please select --</option>
+                        <option value="eastern-cape">Eastern Cape</option>
+                        <option value="western-cape">Western Cape</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
 
-                <!--Average Monthly Eskom Bill-->
-                <label for="bill" style="font-weight: bold;">Average Monthly Eskom Bill (R):</label><br/>
-                <input type="number" id="bill" name="bill" placeholder="e.g. 1500" min="0" style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                <br/>
+                <div class="form-group">
+                    <label for="property">Property Type:</label>
+                    <select id="property" name="property" required>
+                        <option value="">-- Please select --</option>
+                        <option value="home">Home / House</option>
+                        <option value="estate">Estate / Body Corporate</option>
+                        <option value="business">Business / Office</option>
+                        <option value="farm">Farm / Agricultural</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
 
-                <!--Interested In-->
-                <label for="interest" style="font-weight: bold;">What are you interested in?</label><br/>
-                <select id="interest" name="interest" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
-                    <option value="">-- Please select --</option>
-                    <option value="panels">Solar Panels Only</option>
-                    <option value="inverter">Inverter Only</option>
-                    <option value="battery">Battery Only</option>
-                    <option value="full-system">Full System (Panels + Inverter + Battery)</option>
-                    <option value="consultation">Consultation / Advice</option>
-                </select>
-                <br/>
+                <div class="form-group">
+                    <label for="bill">Average Monthly Eskom Bill (R):</label>
+                    <input type="number" id="bill" name="bill" placeholder="e.g. 1500" min="0">
+                </div>
 
-                <!--Message-->
-                <label for="message" style="font-weight: bold;">Message / Additional Information:</label><br/>
-                <textarea id="message" name="message" rows="5" placeholder="Tell us about your energy needs, goals, or any specific questions..." style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;"></textarea>
-                <br/>
+                <div class="form-group">
+                    <label for="interest">What are you interested in?</label>
+                    <select id="interest" name="interest" required>
+                        <option value="">-- Please select --</option>
+                        <option value="panels">Solar Panels Only</option>
+                        <option value="inverter">Inverter Only</option>
+                        <option value="battery">Battery Only</option>
+                        <option value="full-system">Full System (Panels + Inverter + Battery)</option>
+                        <option value="consultation">Consultation / Advice</option>
+                    </select>
+                </div>
 
-                <!--Preferred Contact Method-->
-                <label style="font-weight: bold;">Preferred Contact Method:</label><br/>
-                <input type="radio" id="phone_contact" name="contact_method" value="phone" checked>
-                <label for="phone_contact">Phone Call</label>
-                <br/>
-                <input type="radio" id="email_contact" name="contact_method" value="email">
-                <label for="email_contact">Email</label>
-                <br/>
-                <input type="radio" id="whatsapp_contact" name="contact_method" value="whatsapp">
-                <label for="whatsapp_contact">WhatsApp</label>
-                <br/><br/>
+                <div class="form-group">
+                    <label for="message">Message / Additional Information:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us about your energy needs or any questions you have..."></textarea>
+                </div>
 
-                <!--Submit Button-->
-                <button type="submit" style="background-color: #000000; color: #000000; font-weight: bold; padding: 12px 30px; border: none; border-radius: 25px; font-size: 16px; cursor: pointer; width: 100%;">
-                    SUBMIT ENQUIRY
-                </button>
+                <div class="form-group">
+                    <label>Preferred Contact Method:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contact_method" value="phone" checked> Phone Call</label>
+                        <label><input type="radio" name="contact_method" value="email"> Email</label>
+                        <label><input type="radio" name="contact_method" value="whatsapp"> WhatsApp</label>
+                    </div>
+                </div>
+
+                <button type="submit">Submit Enquiry</button>
             </form>
-            <br/>
-            <hr/>
-        </section>
+        </div>
+    </section>
 
-        <!--What Happens Next Section-->
-        <section>
-            <h2 style="text-align:center; color: #000000;">What Happens Next?</h2>
-            <ol style="font-size: medium; font-family: 'Times New Roman', Times, serif; max-width: 500px; margin: 0 auto; line-height: 2;">
-                <li> We receive your enquiry</li>
-                <li> One of our solar experts reviews your needs</li>
-                <li> We prepare a customised quote for you</li>
-                <li> You receive your quote within 24 hours</li>
-            </ol>
-            <br/>
-            <hr/>
-        </section>
+    <section class="section-grey">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Happens <span>Next?</span></h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>1. We Receive It</h4>
+                    <p>Your enquiry lands directly with our team.</p>
+                </div>
+                <div class="card">
+                    <h4>2. We Review</h4>
+                    <p>A solar expert looks at your needs.</p>
+                </div>
+                <div class="card">
+                    <h4>3. We Quote</h4>
+                    <p>We prepare a customised quote for you.</p>
+                </div>
+                <div class="card">
+                    <h4>4. You Receive It</h4>
+                    <p>Quote sent within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!--Quick Contact Section-->
-        <section>
-            <h2 style="text-align:center; color: #000000;">Prefer to Call Us?</h2>
-            <p style="text-align:center; font-size: large; font-family: 'Times New Roman', Times, serif;">
-                <strong> <a href="tel:+27820321894" style="color: #000000; text-decoration: none;">+27 82 032 1894</a></strong>
-            </p>
-            <p style="text-align:center; font-family: 'Times New Roman', Times, serif;">
-                Or email us directly at <strong><a href="mailto:info@solsticesolar.co.za" style="color: #000000; text-decoration: none;">info@solsticesolar.co.za</a></strong>
-            </p>
-            <br/>
-            <hr/>
-        </section>
+    <section class="cta">
+        <div class="container">
+            <h2>Prefer to <span>Call Us?</span></h2>
+            <p>Speak directly with one of our solar experts.</p>
+            <a href="tel:+27820321894" class="btn btn-yellow">+27 82 032 1894</a>
+        </div>
+    </section>
 
-        <!--Footer Section-->
-        <footer style="background-color: #000000; color: #ffffff; padding: 20px; text-align: center;">
-            <p style="margin: 5px 0;">&copy; 2026 Solstice Solar Solutions. All rights reserved.</p>
-            <p style="margin: 5px 0;">
-                <a href="mailto:info@solsticesolar.co.za" style="color: #000000; text-decoration: none;">info@solsticesolar.co.za</a> | 
-                <a href="tel:+27820321894" style="color: #000000; text-decoration: none;">+27 82 032 1894</a>
-            </p>
-            <p style="margin: 5px 0; font-size: 0.9rem;">Newton Park, Gqeberha | Mon-Fri: 09:00 - 17:00</p>
-        </footer>
-    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Solstice Solar</h4>
+                    <p>Affordable, high-quality solar energy solutions across the Eastern and Western Cape since 2019.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Get Started</h4>
+                    <ul>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li> <a href="tel:+27820321894">+27 82 032 1894</a></li>
+                        <li> <a href="mailto:info@solsticesolar.co.za">info@solsticesolar.co.za</a></li>
+                        <li> Newton Park, Gqeberha</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Solstice Solar Solutions. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

@@ -2,40 +2,142 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale+1.0">
-    <title>SOLSICE_SUN | HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solstice Solar Solutions | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <!--Logo goes here-->
-        <!--Navigation links-->
-        <nav>
-            <a href="./index.html">HOME</a>
-            <a href="./about.html">ABOUT US</a>
-            <a href="./contact.html">CONTACT US</a>
-            <a href="./enquiry.html">ENQUIRY</a>
-            <a href="#">SERVICES</a>
-        </nav>
-    </header>
-    <!--Main section-->
-    <main>
-        <!--First Section-->
-        <section>
-            <!--Welcome message-->
-            <h1 style="color: black; text-align:center;">WELCOME TO WEB DEVELOPMENT</h1>
-            <!--Website description paragraph-->
-            <p>Web development is the process of building, creating, and maintaining websites and web applications that run over the internet.
-                It bridges the gap between a visual design mockup and a functional, interactive platform.
-                In 2026, web development continues to be a highly lucrative,
-                in_demand carrer path that is typically split into three primary specialisations:
-                front-end, back-end, and full_stack development.</p>
-            <!--Insert an image-->
-            <img src="C:\Users\Student\Documents\GitHub\MyGlobe2\assets\images\sebastien-gabriel--IMlv9Jlb24-unsplash.jpg" width="100%" alt="Main image">
-        </section>
-        <!--Footer Section-->
-        <footer>
 
-        </footer>
-    </main>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Solstice<span>Solar</span></a>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Trusted Solar Solutions for <span>Your Home</span> &amp; Business</h1>
+            <p>Save money, reduce your reliance on Eskom, and join over 500 satisfied customers who have made the switch to solar with Solstice Solar Solutions.</p>
+            <a href="enquiry.html" class="btn btn-yellow">Get a Free Quote</a>
+
+            <div class="stats">
+                <div class="stat"><span class="number">500+</span><span class="label">Installations</span></div>
+                <div class="stat"><span class="number">6</span><span class="label">Years Experience</span></div>
+                <div class="stat"><span class="number">2</span><span class="label">Provinces</span></div>
+                <div class="stat"><span class="number">5★</span><span class="label">Rated</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose <span>Solstice</span></h2>
+                <p>Reliable solar solutions you can trust</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Fully Accredited</h4>
+                    <p>Registered with SAPVIA and ECBSA. Every installation comes with a Certificate of Compliance.</p>
+                </div>
+                <div class="card">
+                    <h4>Expert Installation</h4>
+                    <p>Qualified team with over 500 successful installations across two provinces.</p>
+                </div>
+                <div class="card">
+                    <h4>After-Sales Support</h4>
+                    <p>Reliable service, maintenance, and support for your system.</p>
+                </div>
+                <div class="card">
+                    <h4>Affordable Pricing</h4>
+                    <p>Quality solutions for every budget, from starter to commercial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-grey">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span>Services</span></h2>
+                <p>Everything you need to switch to solar</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Solar Panels</h4>
+                    <p>High-efficiency panels for maximum energy production.</p>
+                </div>
+                <div class="card">
+                    <h4>Inverters</h4>
+                    <p>Advanced hybrid inverters for efficient power conversion.</p>
+                </div>
+                <div class="card">
+                    <h4>Batteries</h4>
+                    <p>Reliable storage to keep your lights on during load-shedding.</p>
+                </div>
+                <div class="card">
+                    <h4>Installation Packages</h4>
+                    <p>Complete systems tailored to your home or business.</p>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:30px;">
+                <a href="services.html" class="btn btn-blue">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Make the <span>Switch</span> to Solar?</h2>
+            <p>Get a free, no-obligation quote from our team of solar experts today.</p>
+            <a href="enquiry.html" class="btn btn-yellow">Get Your Free Quote</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Solstice Solar</h4>
+                    <p>Affordable, high-quality solar energy solutions across the Eastern and Western Cape since 2019.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Get Started</h4>
+                    <ul>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li> <a href="tel:+27820321894">+27 82 032 1894</a></li>
+                        <li> <a href="mailto:info@solsticesolar.co.za">info@solsticesolar.co.za</a></li>
+                        <li> Newton Park, Gqeberha</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Solstice Solar Solutions. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
