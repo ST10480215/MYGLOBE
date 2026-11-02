@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solstice Solar Solutions | About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Solstice<span>Solar</span></a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>About <span>Solstice Solar</span></h1>
+            <p>Founded in 2019, we've grown from a garage-based operation into one of the most trusted solar installation brands in the Eastern and Western Cape.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span>Story</span></h2>
+            </div>
+            <p><strong>Solstice Solar Solutions</strong> was founded in <strong>2019</strong> by <strong>Mnqweno Mankayi</strong>, an electrical engineer who saw the need for reliable solar power during South Africa's load-shedding crisis.</p>
+            <p>He started the business from his garage in <strong>Westering, Gqeberha</strong>, installing small systems for neighbours and local shops. By <strong>2021</strong>, the company grew into a fully accredited installation business with a showroom in <strong>Newton Park, Gqeberha</strong>.</p>
+            <p>Today, Solstice Solar Solutions has completed over <strong>500 installations</strong> and operates across the <strong>Eastern Cape</strong> and <strong>Western Cape</strong>, helping clients save money and reduce their reliance on Eskom.</p>
+        </div>
+    </section>
+
+    <section class="section-grey">
+        <div class="container">
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Our Mission</h3>
+                    <p>To provide affordable, high-quality solar energy solutions to homes and businesses across the Eastern and Western Cape through expert installation and reliable after-sales support.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p>To become the most trusted solar installation brand in the Eastern and Western Cape by <strong>2030</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Who We <span>Serve</span></h2>
+            </div>
+            <ul class="list-plain">
+                <li>🏠 Homeowners in middle-to-upper-income suburbs across both provinces</li>
+                <li>🏢 Small business owners affected by load-shedding</li>
+                <li>🏘️ Estate and body corporate managers</li>
+                <li>🌱 Environmentally conscious individuals</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section-grey">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our <span>Accreditations</span></h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Electrical Contractors</h4>
+                    <p>Registered with the ECBSA</p>
+                </div>
+                <div class="card">
+                    <h4>Fully Insured</h4>
+                    <p>Public liability and workmanship cover</p>
+                </div>
+                <div class="card">
+                    <h4>SAPVIA Member</h4>
+                    <p>South African Photovoltaic Industry Association</p>
+                </div>
+                <div class="card">
+                    <h4>5-Star Rated</h4>
+                    <p>Google and HelloPeter reviews</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meet Our <span>Team</span></h2>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Mnqweno Mankayi</h4>
+                    <p><strong>Founder &amp; Lead Engineer</strong></p>
+                    <p>10+ years of electrical engineering experience.</p>
+                </div>
+                <div class="card">
+                    <h4>Thandi Mbeki</h4>
+                    <p><strong>Sales Manager</strong></p>
+                    <p>Eastern &amp; Western Cape regional sales.</p>
+                </div>
+                <div class="card">
+                    <h4>Sipho Ndlovu</h4>
+                    <p><strong>Senior Technician</strong></p>
+                    <p>Installation specialist and team leader.</p>
+                </div>
+                <div class="card">
+                    <h4>Lindiwe Zulu</h4>
+                    <p><strong>Customer Support</strong></p>
+                    <p>After-sales care and client relations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Make the <span>Switch</span>?</h2>
+            <p>Get a free, no-obligation quote from our team today.</p>
+            <a href="enquiry.html" class="btn btn-yellow">Get Your Free Quote</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Solstice Solar</h4>
+                    <p>Affordable, high-quality solar energy solutions across the Eastern and Western Cape since 2019.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Get Started</h4>
+                    <ul>
+                        <li><a href="enquiry.html">Enquiry</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📞 <a href="tel:+27820321894">+27 82 032 1894</a></li>
+                        <li>✉️ <a href="mailto:info@solsticesolar.co.za">info@solsticesolar.co.za</a></li>
+                        <li>📍 Newton Park, Gqeberha</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Solstice Solar Solutions. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
