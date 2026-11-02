@@ -1,174 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solstice Solar Solutions | About Us</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body>
+# Solstice Solar Solutions - Website Project
 
-    <header>
-        <div class="container">
-            <a href="index.html" class="logo">Solstice<span>Solar</span></a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html" class="active">About</a>
-                <a href="services.html">Services</a>
-                <a href="enquiry.html">Enquiry</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+Welcome to the repository for the **Solstice Solar Solutions** website. This project was developed as part of my Portfolio of Evidence (POE). 
 
-    <section class="hero">
-        <div class="container">
-            <h1>About <span>Solstice Solar</span></h1>
-            <p>Founded in 2019, we've grown from a garage-based operation into one of the most trusted solar installation brands in the Eastern and Western Cape.</p>
-        </div>
-    </section>
+Solstice Solar Solutions is a fictional solar installation company based in Gqeberha, South Africa. The goal of this website is to generate sales leads, educate visitors on the benefits of solar energy, and showcase the company's services across the Eastern and Western Cape.
 
-    <section class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our <span>Story</span></h2>
-            </div>
-            <p><strong>Solstice Solar Solutions</strong> was founded in <strong>2019</strong> by <strong>Mnqweno Mankayi</strong>, an electrical engineer who saw the need for reliable solar power during South Africa's load-shedding crisis.</p>
-            <p>He started the business from his garage in <strong>Westering, Gqeberha</strong>, installing small systems for neighbours and local shops. By <strong>2021</strong>, the company grew into a fully accredited installation business with a showroom in <strong>Newton Park, Gqeberha</strong>.</p>
-            <p>Today, Solstice Solar Solutions has completed over <strong>500 installations</strong> and operates across the <strong>Eastern Cape</strong> and <strong>Western Cape</strong>, helping clients save money and reduce their reliance on Eskom.</p>
-        </div>
-    </section>
+## 🚀 Live Site
+You can view the live, deployed website here:
+👉 **[https://st10480215.github.io/MYGLOBE/](https://st10480215.github.io/MYGLOBE/)**
 
-    <section class="section-grey">
-        <div class="container">
-            <div class="card-grid">
-                <div class="card">
-                    <h3>Our Mission</h3>
-                    <p>To provide affordable, high-quality solar energy solutions to homes and businesses across the Eastern and Western Cape through expert installation and reliable after-sales support.</p>
-                </div>
-                <div class="card">
-                    <h3>Our Vision</h3>
-                    <p>To become the most trusted solar installation brand in the Eastern and Western Cape by <strong>2030</strong>.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+## 📄 Pages Included
+The website consists of 5 fully responsive pages:
+1. **`index.html` (Home):** Hero section, company statistics, why choose us, and a services preview.
+2. **`about.html` (About Us):** The company story, mission, vision, target audience, and team introduction.
+3. **`services.html` (Services):** Detailed breakdown of solar panels, inverters, batteries, and complete installation packages.
+4. **`enquiry.html` (Enquiry):** A comprehensive, multi-field quote request form to capture user data.
+5. **`contact.html` (Contact Us):** Phone, email, WhatsApp details, showroom address, operating hours, and a Google Maps embed.
 
-    <section class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Who We <span>Serve</span></h2>
-            </div>
-            <ul class="list-plain">
-                <li>🏠 Homeowners in middle-to-upper-income suburbs across both provinces</li>
-                <li>🏢 Small business owners affected by load-shedding</li>
-                <li>🏘️ Estate and body corporate managers</li>
-                <li>🌱 Environmentally conscious individuals</li>
-            </ul>
-        </div>
-    </section>
+## 🎨 Design & Branding
+The website was designed to be clean, modern, and trustworthy, using the following brand guidelines:
+*   **Primary Color:** Solar Blue (`#1A5276`) - Used for headers, backgrounds, and primary text.
+*   **Secondary Color:** Sunlight Yellow (`#F4D03F`) - Used for highlights, buttons, and Call-to-Actions (CTAs).
+*   **Accent Color:** Energy Green (`#27AE60`) - Used for success states.
+*   **Typography:** *Montserrat* (Headings) and *Roboto* (Body text) via Google Fonts.
 
-    <section class="section-grey">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our <span>Accreditations</span></h2>
-            </div>
-            <div class="card-grid">
-                <div class="card">
-                    <h4>Electrical Contractors</h4>
-                    <p>Registered with the ECBSA</p>
-                </div>
-                <div class="card">
-                    <h4>Fully Insured</h4>
-                    <p>Public liability and workmanship cover</p>
-                </div>
-                <div class="card">
-                    <h4>SAPVIA Member</h4>
-                    <p>South African Photovoltaic Industry Association</p>
-                </div>
-                <div class="card">
-                    <h4>5-Star Rated</h4>
-                    <p>Google and HelloPeter reviews</p>
-                </div>
-            </div>
-        </div>
-    </section>
+## 🛠️ Technologies Used
+*   **HTML5:** Semantic structure across all pages.
+*   **CSS3:** Custom styling (no external frameworks like Bootstrap). 
+*   **CSS Grid & Flexbox:** Used for responsive layouts and card grids.
+*   **Media Queries:** Ensures the site is fully mobile-responsive (adapts to phone and tablet screens).
+*   **Google Fonts:** For brand typography.
+*   **Google Maps API:** Embedded map for the showroom location.
 
-    <section class="section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Meet Our <span>Team</span></h2>
-            </div>
-            <div class="card-grid">
-                <div class="card">
-                    <h4>Mnqweno Mankayi</h4>
-                    <p><strong>Founder &amp; Lead Engineer</strong></p>
-                    <p>10+ years of electrical engineering experience.</p>
-                </div>
-                <div class="card">
-                    <h4>Thandi Mbeki</h4>
-                    <p><strong>Sales Manager</strong></p>
-                    <p>Eastern &amp; Western Cape regional sales.</p>
-                </div>
-                <div class="card">
-                    <h4>Sipho Ndlovu</h4>
-                    <p><strong>Senior Technician</strong></p>
-                    <p>Installation specialist and team leader.</p>
-                </div>
-                <div class="card">
-                    <h4>Lindiwe Zulu</h4>
-                    <p><strong>Customer Support</strong></p>
-                    <p>After-sales care and client relations.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="cta">
-        <div class="container">
-            <h2>Ready to Make the <span>Switch</span>?</h2>
-            <p>Get a free, no-obligation quote from our team today.</p>
-            <a href="enquiry.html" class="btn btn-yellow">Get Your Free Quote</a>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <h4>Solstice Solar</h4>
-                    <p>Affordable, high-quality solar energy solutions across the Eastern and Western Cape since 2019.</p>
-                </div>
-                <div>
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Get Started</h4>
-                    <ul>
-                        <li><a href="enquiry.html">Enquiry</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                    <ul>
-                        <li>📞 <a href="tel:+27820321894">+27 82 032 1894</a></li>
-                        <li>✉️ <a href="mailto:info@solsticesolar.co.za">info@solsticesolar.co.za</a></li>
-                        <li>📍 Newton Park, Gqeberha</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                &copy; 2026 Solstice Solar Solutions. All rights reserved.
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
+## 📁 File Structure
+```text
+MYGLOBE/
+│
+├── index.html
+├── about.html
+├── services.html
+├── enquiry.html
+├── contact.html
+├── README.md
+└── css/
+    └── style.css
